@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f7f4">
+<meta name="description" content="Official NovaMeow and Meow Tech Open Source service notice.">
+<title>NovaMeow — Service Notice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Serif+TC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f7f4;--paper:#fff;--text:#161616;--muted:#66645f;--line:#d9d8d2;--soft:#ecebe5;--accent:#9b2c20;--max:980px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans","Noto Serif TC",system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:inherit}.page{width:min(var(--max),calc(100% - 48px));margin:0 auto;padding:34px 0 72px}
+header{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.brand img{width:34px;height:34px;border-radius:8px;display:block}.brand-copy{line-height:1.2}.brand-title{font-size:14px;font-weight:600;letter-spacing:-.01em}.brand-sub{margin-top:4px;color:var(--muted);font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.controls{display:flex;align-items:center;gap:16px}.updates-link{font-size:12px;color:var(--muted);text-decoration:none;border-bottom:1px solid transparent}.updates-link:hover{color:var(--text);border-color:var(--text)}.lang{display:flex;gap:2px;padding:2px;border:1px solid var(--line);border-radius:999px;background:#fbfbf8}.lang button{appearance:none;border:0;background:transparent;color:var(--muted);font:inherit;font-size:11px;font-weight:500;padding:6px 9px;border-radius:999px;cursor:pointer}.lang button.active{background:var(--text);color:white}
+main{padding-top:72px}.kicker{display:flex;align-items:center;gap:10px;color:var(--accent);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+h1{font-family:"Source Serif 4","Noto Serif TC",serif;font-size:clamp(48px,7vw,78px);font-weight:500;line-height:.99;letter-spacing:-.045em;max-width:860px;margin:24px 0 24px}.lede{max-width:820px;margin:0;color:#393833;font-size:20px;line-height:1.72;letter-spacing:-.01em}
+.notice-meta{margin:52px 0 0;border-top:1px solid var(--text);border-bottom:1px solid var(--line)}.meta-row{display:grid;grid-template-columns:190px 1fr;gap:28px;padding:15px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.55}.meta-row:last-child{border-bottom:0}.meta-label{color:var(--muted)}.meta-value{font-weight:500}
+.article{margin-top:58px;display:grid;grid-template-columns:190px minmax(0,1fr);gap:28px}.article-label{color:var(--muted);font-size:12px;letter-spacing:.07em;text-transform:uppercase;padding-top:5px}.article-body{max-width:720px}.article-body h2{font-family:"Source Serif 4","Noto Serif TC",serif;font-size:30px;line-height:1.2;font-weight:600;letter-spacing:-.025em;margin:0 0 24px}.article-body p{margin:0 0 20px;font-size:16px;line-height:1.9;color:#2f2e2a}.article-body p:last-child{margin-bottom:0}.article-body strong{font-weight:600;color:#161616}.article-body .signoff{margin-top:32px;padding-top:24px;border-top:1px solid var(--line);font-size:14px;line-height:1.75;color:var(--muted)}
+footer{margin-top:78px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;color:#77746e;font-size:11px;letter-spacing:.02em}
+[data-lang]{display:none}[data-lang].show{display:block}.inline[data-lang].show{display:inline}
+.reveal{animation:fadeup .55s cubic-bezier(.22,.7,.2,1) both}.delay1{animation-delay:.05s}.delay2{animation-delay:.1s}.delay3{animation-delay:.15s}
+@keyframes fadeup{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:720px){.page{width:min(100% - 28px,var(--max));padding-top:20px}header{align-items:flex-start;padding-bottom:18px}.brand-sub{display:none}.controls{gap:10px}.updates-link{display:none}main{padding-top:48px}h1{font-size:50px}.lede{font-size:17px}.meta-row{grid-template-columns:1fr;gap:4px}.article{grid-template-columns:1fr;gap:14px}.article-label{padding:0}.article-body h2{font-size:27px}.article-body p{font-size:15.5px;line-height:1.85}footer{margin-top:58px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <a class="brand" href="https://github.com/MeowTechOpenSource" rel="noreferrer">
+    <img src="https://github.com/MeowTechOpenSource.png" alt="Meow Tech Open Source logo">
+    <div class="brand-copy"><div class="brand-title">NovaMeow / Meow Tech Open Source</div><div class="brand-sub">Official service notice</div></div>
+  </a>
+  <div class="controls">
+    <a class="updates-link" href="updates.html"><span class="inline" data-lang="en">Status updates</span><span class="inline" data-lang="zh">狀態更新</span></a>
+    <div class="lang" aria-label="Language"><button id="enBtn" type="button">EN</button><button id="zhBtn" type="button">繁中</button></div>
+  </div>
+</header>
+
+<main>
+<section data-lang="en">
+  <div class="kicker reveal"><span class="dot"></span>Major service interruption</div>
+  <h1 class="reveal delay1">Service interruption affecting NovaMeow hosted services</h1>
+  <p class="lede reveal delay2">A significant service interruption is currently affecting most NovaMeow hosted services and a number of services operated by Meow Tech Open Source. Authentication, cloud storage and several internal services are unavailable, and some applications may not be accessible at this time.</p>
+
+  <div class="notice-meta reveal delay3">
+    <div class="meta-row"><div class="meta-label">Notice issued</div><div class="meta-value">6 October 2026</div></div>
+    <div class="meta-row"><div class="meta-label">Current status</div><div class="meta-value">Major outage · Most hosted services unavailable</div></div>
+    <div class="meta-row"><div class="meta-label">Known impact</div><div class="meta-value">Authentication, cloud storage, internal services, APIs and dependent applications</div></div>
+    <div class="meta-row"><div class="meta-label">Expected restoration</div><div class="meta-value">Within one month</div></div>
+  </div>
+
+  <div class="article">
+    <div class="article-label">Official notice</div>
+    <div class="article-body">
+      <h2>Statement regarding the current service outage</h2>
+      <p>NovaMeow is currently experiencing a major interruption affecting a substantial portion of our hosted services. The outage is also affecting a number of services and applications operated under Meow Tech Open Source that depend on NovaMeow-hosted systems.</p>
+      <p>At present, <strong>our authentication service, cloud storage service and several services used by internal users are offline</strong>. Other services that depend on them may also be unavailable or only partially functional. Some applications may therefore be inaccessible entirely. In other cases, an application may open but users may be unable to sign in, retrieve stored files or data, complete requests, or use features that rely on an affected backend service.</p>
+      <p>The exact impact varies between applications and services. Public source-code repositories hosted on GitHub remain available. However, hosted websites, APIs, account-related functions, storage-backed features and other connected components may remain unavailable while the incident continues.</p>
+      <p>We recognise that these services are used for ongoing development work, access to stored files, application access and internal operations. <strong>We sincerely apologise to users, contributors and collaborators affected by this interruption.</strong> We understand that an extended loss of access can disrupt active work and may prevent normal use of services that are ordinarily expected to remain available.</p>
+      <p>Recovery work is currently in progress. Based on the information available to us at this stage, we expect affected services to be restored <strong>within one month</strong>. This is our current restoration estimate rather than a guaranteed completion date. If the expected timeframe changes materially, we will update this notice accordingly.</p>
+      <p>We will avoid publishing speculative progress reports. Further updates will be posted when there is a meaningful change in service availability, when individual services begin returning, or when we are able to provide a more precise restoration timetable. Until then, users should assume that affected services and dependent applications may remain unavailable or unreliable.</p>
+      <p>For the latest information, please refer to the status updates published on this site. We appreciate your patience and understanding while service is being restored.</p>
+      <div class="signoff">NovaMeow<br>Meow Tech Open Source<br>6 October 2026</div>
+    </div>
+  </div>
+</section>
+
+<section data-lang="zh">
+  <div class="kicker reveal"><span class="dot"></span>重大服務中斷</div>
+  <h1 class="reveal delay1">NovaMeow 多項託管服務現正中斷</h1>
+  <p class="lede reveal delay2">NovaMeow 大部分託管服務，以及部分由 Meow Tech Open Source 營運的服務現正受到重大服務中斷影響。登入驗證、雲端儲存及多項內部服務目前無法使用，部分應用程式亦可能暫時無法存取。</p>
+
+  <div class="notice-meta reveal delay3">
+    <div class="meta-row"><div class="meta-label">公告日期</div><div class="meta-value">2026 年 10 月 6 日</div></div>
+    <div class="meta-row"><div class="meta-label">目前狀態</div><div class="meta-value">重大服務中斷 · 大部分託管服務無法使用</div></div>
+    <div class="meta-row"><div class="meta-label">已知受影響範圍</div><div class="meta-value">登入驗證、雲端儲存、內部服務、API 及相關應用程式</div></div>
+    <div class="meta-row"><div class="meta-label">預計恢復時間</div><div class="meta-value">一個月內</div></div>
+  </div>
+
+  <div class="article">
+    <div class="article-label">正式公告</div>
+    <div class="article-body">
+      <h2>有關目前服務中斷的聲明</h2>
+      <p>NovaMeow 目前正經歷一次重大服務中斷，影響範圍涵蓋大部分由 NovaMeow 託管的服務。部分由 Meow Tech Open Source 營運、並依賴 NovaMeow 託管服務的應用程式及相關服務亦同時受到影響。</p>
+      <p>現時，<strong>登入驗證服務、雲端儲存服務，以及多項供內部使用的服務均處於離線狀態</strong>。其他依賴上述服務的系統亦可能完全無法使用，或只能提供有限功能。部分應用程式可能無法開啟或存取；另一些應用程式則可能仍可載入，但無法登入帳戶、讀取已儲存的檔案或資料、完成請求，或使用需要連接受影響服務的功能。</p>
+      <p>不同應用程式及服務的實際受影響程度可能有所不同。託管於 GitHub 的公開原始碼 repository 目前仍可正常存取；然而，相關的託管網站、API、帳戶功能、需要雲端儲存支援的功能，以及其他連接 NovaMeow 服務的組件，在事故持續期間仍可能無法使用。</p>
+      <p>我們明白相關服務被用於日常開發工作、檔案存取、應用程式使用及內部運作。<strong>對於今次長時間服務中斷為使用者、貢獻者及合作人士帶來的不便，我們謹此致歉。</strong> 我們亦理解，無法正常存取這些服務可能會直接影響正在進行的工作，並令部分原本可正常使用的功能暫時中止。</p>
+      <p>目前相關恢復工作仍在進行。根據現階段掌握的情況，我們預計受影響服務可於<strong>一個月內</strong>恢復。此時間為目前的恢復估算，並非保證完成日期。如預計時間出現重大變動，我們會更新本公告並公布最新安排。</p>
+      <p>我們不會為了增加更新頻率而發布未經確認或沒有實質變化的進度。當服務可用性出現明顯改變、個別服務開始恢復，或我們能夠提供更準確的恢復時間表時，將會在本網站公布進一步更新。在此之前，使用者應預期受影響服務及相關應用程式仍可能無法使用，或出現不穩定情況。</p>
+      <p>最新資料將持續刊載於本網站的狀態更新頁面。感謝各位在服務恢復期間的耐心及體諒。</p>
+      <div class="signoff">NovaMeow<br>Meow Tech Open Source<br>2026 年 10 月 6 日</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><span>NovaMeow / Meow Tech Open Source</span><span>outage.novameow.com</span></footer>
+</div>
+<script>
+const en=document.querySelector('[data-lang="en"]'),zh=document.querySelector('[data-lang="zh"]'),enBtn=document.getElementById('enBtn'),zhBtn=document.getElementById('zhBtn');
+function setLang(lang){const isZh=lang==='zh';document.querySelectorAll('[data-lang]').forEach(x=>x.classList.toggle('show',x.dataset.lang===lang));enBtn.classList.toggle('active',!isZh);zhBtn.classList.toggle('active',isZh);document.documentElement.lang=isZh?'zh-HK':'en';try{localStorage.setItem('nm-lang',lang)}catch(e){}}
+enBtn.onclick=()=>setLang('en');zhBtn.onclick=()=>setLang('zh');let saved='';try{saved=localStorage.getItem('nm-lang')||''}catch(e){}setLang(saved||((navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en'));
+</script>
+</body>
+</html>
